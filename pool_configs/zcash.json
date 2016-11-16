@@ -1,0 +1,71 @@
+{
+    "enabled": true,
+    "coin": "zcash.json",
+
+    "auxes": [ ],
+    "address": "t1LfcNpz7YYu9QqMXvT2JP2xHxkgdAGyMc9",
+
+    "rewardRecipients": {
+        "t1LfcNpz7YYu9QqMXvT2JP2xHxkgdAGyMc9": 1.5,
+        "t1LfcNpz7YYu9QqMXvT2JP2xHxkgdAGyMc9": 0.1
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 30,
+        "minimumPayment": 0.01,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8232,
+            "user": "test",
+            "password": "test1234"
+        }
+    },
+
+    "ports": {
+        "3008": {
+            "diff": 8
+        },
+        "3032": {
+            "diff": 32,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 512,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3256": {
+            "diff": 256
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8232,
+            "user": "test",
+            "password": "test1234"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": false
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": false,
+        "autoCreateWorker": false
+    }
+
+}

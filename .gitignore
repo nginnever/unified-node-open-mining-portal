@@ -2,7 +2,7 @@ node_modules/
 .idea/
 pool_configs/*.json
 !pool_configs/litecoin_example.json
-!pool_configs/litecoin.json
+!pool_configs/zcash.json
 npm-debug.log
 multipool/inferno-payment.sh
 multipool/inferno-profit.sh
