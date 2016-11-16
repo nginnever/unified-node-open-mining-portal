@@ -1,0 +1,7 @@
+{
+    "name": "Zcash",
+    "symbol": "ZEC",
+    "algorithm": "equihash",
+    "peerMagic": "fbc0b6db",
+    "peerMagicTestnet": "fcc1b7dc"
+}

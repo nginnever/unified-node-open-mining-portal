@@ -1,8 +1,8 @@
 node_modules/
 .idea/
-config.json
 pool_configs/*.json
 !pool_configs/litecoin_example.json
+!pool_configs/litecoin.json
 npm-debug.log
 multipool/inferno-payment.sh
 multipool/inferno-profit.sh
